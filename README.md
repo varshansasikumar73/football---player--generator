@@ -29,7 +29,7 @@ A collection of three football-themed terminal games written in pure Python. The
 |---|---|---|---|
 | **Random Footballer Battle** | `randomfootballgeneratorgame.py` | 2 people | Random selection, comparing values, `if / elif / else` |
 | **Squad Average Rating** | `averagefootballerratinggenerator.py` | 1 person | Input validation, loops, searching data, calculating an average |
-| **Fantasy Draft vs AI** | `claudecodefantasyfootball.py` | 1 person vs computer | Functions, budget management, a computer opponent, replay loop |
+| **Fantasy Draft vs AI** 🤖 | `claudecodefantasyfootball.py` | 1 person vs computer | Functions, budget management, a computer opponent, replay loop *(vibe coded with an AI assistant)* |
 
 ---
 
@@ -146,6 +146,8 @@ flowchart TD
 ## Game 3: Fantasy Draft vs AI
 
 **File:** `claudecodefantasyfootball.py`
+
+> 🤖 **Built with an AI coding assistant.** I "vibe coded" this game with Claude Code as an experiment, to learn how AI-assisted development works. I described the game I wanted, and the AI wrote the code. I then went through it to understand how it works, and the explanations below are the result. Games 1 and 2 were written by hand.
 
 The most advanced game in the project. You have **£500m** to build a squad of **5 footballers**, and a computer opponent drafts its own squad with the same budget. The squad with the higher average rating wins.
 
@@ -335,6 +337,7 @@ football---player--generator/
 - **Copying data**: why changing a list inside a function can affect the original, and using `.copy()` to prevent it
 - **Building a simple AI**: random choice combined with a rule that stops the AI from going bust
 - **Formatting output**: f-string alignment (`:<24`) for tables, and `:.1f` to round to one decimal place
+- **Vibe coding**: describing a program to an AI coding assistant, then reading and understanding the code it produces, and seeing how that compares with writing code by hand
 
 ---
 
